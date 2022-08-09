@@ -2,7 +2,7 @@
   text-align: center;
   font-family: raleway;
   font-size: 18px;
-
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {

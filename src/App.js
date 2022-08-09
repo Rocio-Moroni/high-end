@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import HeroImg from './components/HeroImg/HeroImg';
 import FeelingGreat from './components/FeelingGreat/FeelingGreat';
 import GalleryImg from './components/GalleryImg/GalleryImg';
+import Slider from './components/Slider/Slider';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,6 +23,7 @@ function App() {
       </header>
       <main>
         <FeelingGreat />
+        <Slider />
         <GalleryImg />
       </main>
       <footer>

@@ -22,7 +22,7 @@ const NavBar = () => {
     return (
         <Container fluid className='NavBar'>
             <Row>
-                <Col xl ={7} lg={7} md={6} sm={12} className='LogoArea' href='#home'>
+                <Col xl={7} lg={7} md={6} sm={12} className='LogoArea' href='#home'>
                     <Col md={4} className='LogoImg'>
                         <img src='https://res.cloudinary.com/dfprmjlir/image/upload/v1659648045/HIGH%20END/Blan-iso-Horizontal_2x_hupjcr.png'></img>
                     </Col>

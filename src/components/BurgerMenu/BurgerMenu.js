@@ -12,7 +12,7 @@ const BurgerMenu = () => {
     return (
         <Container className='BurgerMenu'>
             <input type='checkbox' className='BurgerMenuCheckbox' id='toggle'></input>
-            <label for='toggle' className='BurgerMenuButton'>
+            <label htmlFor='toggle' className='BurgerMenuButton'>
                 <span className='BurgerMenuBars'>&nbsp;</span>
             </label>
             <nav className='BurgerMenuContent'>
