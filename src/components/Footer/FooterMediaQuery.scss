@@ -1,0 +1,114 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .Footer {
+        height: 9em;
+
+        .row {
+            .FooterInstagram {
+                h6 {
+                    padding-bottom: 0.8%;
+                }
+                a {
+                    border-radius: 50px;
+                    padding: 9.5px 24px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 0.9em;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+// LARGE DEVICES [L]
+@media all and (min-width: 993px) and (max-width: 1999px) {
+    .Footer {
+        height: 9em;
+
+        .row {
+            .FooterInstagram {
+                h6 {
+                    padding-bottom: 0.8%;
+                }
+                a {
+                    border-radius: 50px;
+                    padding: 9.5px 24px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 0.9em;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .Footer {
+        height: 9em;
+
+        .row {
+            .FooterInstagram {
+                h6 {
+                    padding-bottom: 0.8%;
+                }
+                a {
+                    border-radius: 50px;
+                    padding: 9.5px 24px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 0.9em;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .Footer {
+        height: 9em;
+
+        .row {
+            .FooterInstagram {
+                h6 {
+                    padding-bottom: 0.8%;
+                }
+                a {
+                    border-radius: 50px;
+                    padding: 9.5px 24px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 0.9em;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+    .Footer {
+        height: 7em;
+
+        .row {
+            .FooterInstagram {
+                h6 {
+                    padding-bottom: 0.8%;
+                }
+                a {
+                    border-radius: 50px;
+                    padding: 9.5px 24px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 0.9em;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}

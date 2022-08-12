@@ -1,0 +1,89 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .ProcessContainer {
+        width: 100vw;
+        .ProcessRow {
+            width: 80%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            h3 {
+                font-weight: 700;
+            }
+            .Icon {
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+// LARGE DEVICES [L]
+@media all and (min-width: 993px) and (max-width: 1999px) {
+    .ProcessContainer {
+        width: 100vw;
+        .ProcessRow {
+            width: 80%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            h3 {
+                font-weight: 700;
+            }
+            .Icon {
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .ProcessContainer {
+        width: 100vw;
+        .ProcessRow {
+            width: 80%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            h3 {
+                font-weight: 700;
+            }
+            .Icon {
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .ProcessContainer {
+        width: 100vw;
+        .ProcessRow {
+            width: 80%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            h3 {
+                font-weight: 700;
+            }
+            .Icon {
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+    .ProcessContainer {
+        width: 100vw;
+        .ProcessRow {
+            width: 80%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            h3 {
+                font-weight: 700;
+            }
+            .Icon {
+                margin-bottom: 3%;
+            }
+        }
+    }
+}

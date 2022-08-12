@@ -1,0 +1,19 @@
+.ProcessContainer {
+    background-color: #1E1E1E;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ProcessRow {
+        h3 {
+            color: white;
+        }
+        p {
+            color: white;
+            text-align: center;
+        }
+        .Icon {
+            color: white;
+        }
+    }
+}

@@ -96,7 +96,9 @@
     }
 
     .FeelingGreat {
-        height: 93vh;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
 
         .FeelingGreatContent {
             margin-left: 20%;
@@ -127,13 +129,23 @@
 // XS DEVICES [-]
 @media all and (max-width: 576px) {
     .FeelingGreat {
-        height: 93vh;
+        height: 100vh;
         display: flex;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
 
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .FeelingGreatArea {
+                width: 70%;
+            }
+        }
         .FeelingGreatContent {
-            margin-left: 10%;
-            margin-right: 10%;
+            width: 100vw;
+
             .FeelingGreatSmallDevices{
                 display: flex;
                 align-items: center;

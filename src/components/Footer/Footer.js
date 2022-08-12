@@ -1,13 +1,12 @@
 /* IMPORTS */
 
 // SCSS import:
-import './Footer.scss'
+import './Footer.scss';
+import './FooterMediaQuery.scss';
 // React import:
 import React from 'react';
 import { BsInstagram } from "react-icons/bs";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 
@@ -20,7 +19,7 @@ const Footer = () => {
             <Row>
                 <Col className='FooterInstagram'>
                     <h6>¡Seguinos en Instagram! <br /> Y enterate de todo</h6>
-                    <a href='https://www.instagram.com/highend.sw/'><BsInstagram/> ¡SEGUINOS!</a>
+                    <a href='https://www.instagram.com/highend.sw/' target="_blank"><BsInstagram/> ¡SEGUINOS!</a>
                 </Col>
             </Row>
         </Container>
